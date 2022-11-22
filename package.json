@@ -5,6 +5,7 @@
   "author": "ganbaatarid",
   "license": "MIT",
   "repository": "ganbaatarid/hh-g",
+  "private": false,
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
