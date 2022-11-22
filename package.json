@@ -1,10 +1,10 @@
 {
-  "name": "hhg",
-  "version": "2.1.0",
+  "name": "@ganbaatarid/hh-g",
+  "version": "3.1.2",
   "description": "gg",
   "author": "ganbaatarid",
   "license": "MIT",
-  "repository": "ganbaatarid/hh-g",
+  "repository": "https://github.com/ganbaatarid/hh-g",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -25,7 +25,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   },
   "peerDependencies": {
     "react": "^16.0.0"
